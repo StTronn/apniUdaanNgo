@@ -1,7 +1,7 @@
 # wfr 
 A simple site for an NGO ( Writing for Right ) 
 # DEMO
-https://mirotalk.tech 
+https://writingforight.ml
 # Thanks 
  A site By chitraksh maheshwari.
 Do Star the repository if you like it 
