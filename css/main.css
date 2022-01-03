@@ -1241,14 +1241,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
-    font-family: "montserrat-bold", sans-serif;
-    font-size: 1.7rem;
-    line-height: 1.333;
-    text-transform: uppercase;
-    letter-spacing: .25rem;
     color: #39b54a;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .subhead--dark {
@@ -2200,9 +2193,18 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
+    background-color: white;
     color: #010507;
     position: relative;
+}
+
+.s-about-dark {
+    padding-top: 16.2rem;
+    padding-bottom: 9rem;
+    background-color: #111111;
+    color: white;
+    position: relative;
+
 }
 
 .s-about .section-header.has-bottom-sep::before {
@@ -3601,3 +3603,15 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+li{
+    text-align: left;
+    font-weight: 500;
+}
+
+.grid-2 {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 40px;
+    width: fit-content;
+
+}
